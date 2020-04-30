@@ -1,0 +1,21 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesWang653/Answers-to-Advent-of-Code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesWang653/Answers-to-Advent-of-Code/issues"
+  },
+  "homepage": "https://github.com/CharlesWang653/Answers-to-Advent-of-Code#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
