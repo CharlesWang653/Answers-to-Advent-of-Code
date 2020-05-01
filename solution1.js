@@ -19,9 +19,9 @@ const minStep = (arr) => {
         break;
     }
     if(directionMap.get(direction[point])){
-      directionMap.set(direction[point], directionMap.get(direction[point]) + Number(step[1]));
+      directionMap.set(direction[point], directionMap.get(direction[point]) + Number(step.substring(1,step.length)));
     }else{
-      directionMap.set(direction[point], Number(step[1]));
+      directionMap.set(direction[point], Number(step.substring(1,step.length)));
     }
   });
   let N = directionMap.get('N') ? directionMap.get('N'):0;
