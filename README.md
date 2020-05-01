@@ -1,4 +1,5 @@
 # Answers-to-Advent-of-Code
+  The source code are the solution1.js, solution4.js, solution4P2.js, solution10P1.js and solution10P2.js.
 ## solution 1(question 10)：
   there are fout direction for the question. so from the first step, accumulate the distance of how far the one walked and what's the direction for that. Then the number we can get in the map. The north and south, east and west can be offset. Then we can add the two together for the result.
 ## solution 2(question 4):
